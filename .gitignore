@@ -1,7 +1,15 @@
+# Python
+*.py[cod]
+__pycache__/
+*.so
+env/
+venv/
+
+# Frappe
 .DS_Store
-*.pyc
-*.egg-info
-*.swp
-tags
 node_modules
-__pycache__
+*.swp
+*.egg-info
+*.pyc
+local_config.py
+site_config.json

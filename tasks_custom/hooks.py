@@ -242,3 +242,8 @@ app_license = "mit"
 # 	"Logging DocType Name": 30  # days to retain logs
 # }
 
+override_doctype_dashboards = {
+    "Task": "tasks_custom.overrides.task_dashboard.get_data"
+}
+
+after_install = "tasks_custom.install.after_install"
